@@ -16,7 +16,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <input type="number" onChange={(e)=>updateSum(e)}/>
-        <p>Sum  :  {sum}</p>
+        <p>Sum: {sum}</p>
     </div>
   )
 }
